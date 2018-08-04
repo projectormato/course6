@@ -1,1 +1,1 @@
-# cource6
+# course6
