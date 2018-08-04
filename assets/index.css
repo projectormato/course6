@@ -1,0 +1,29 @@
+body{
+  background-color: #cccccc;
+}
+
+footer{
+  background-color: #243484;
+  text-align: center;
+}
+
+#top-content{
+  background: url("../image/home-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+#bottom-content{
+  background: url("../image/price-bg.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.btn-blue{
+  background-color: #243484;
+}
+
+.navbar-brand {
+  background: url("../image/logo-white.png") no-repeat left center;
+  background-size: contain;
+  height: 20px;
+  width: 40%;
+}
