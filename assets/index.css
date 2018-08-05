@@ -26,6 +26,10 @@ footer{
   background-color: #243484;
 }
 
+.text-red{
+  color: red;
+}
+
 .navbar-brand {
   background: url("../image/logo-white.png") no-repeat left center;
   background-size: contain;
