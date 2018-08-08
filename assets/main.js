@@ -1,6 +1,6 @@
 $(function () {
 var $body = $('body');
-
+console.log($('#menu__btn'))
 //開閉用ボタンをクリックでクラスの切替え
 $('#menu__btn').on('click', function (e) {
   $body.addClass('open');

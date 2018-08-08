@@ -19,9 +19,11 @@
         <script>
         $(function(){
           $("#header").load("header.html");
+          console.log("Hi");
         });
         </script>
       </div>
+      <script src="./assets/main.js"></script>
 
       <div class="row">
         <div class="col-md">
@@ -107,26 +109,6 @@
     $(function(){
       $("#footer").load("footer.html");
     });
-    </script>
-
-
-    <script>
-      $(function () {
-      var $body = $('body');
-
-      //開閉用ボタンをクリックでクラスの切替え
-      $('#menu__btn').on('click', function (e) {
-        $body.addClass('open');
-        console.log("btn click!");
-        //いつかtoggleするようにする
-      });
-
-      // メニュー名以外の部分をクリックで閉じる
-      $('#menu__nav').on('click', function () {
-        $body.removeClass('open');
-        console.log("menu click!");
-      });
-      });
     </script>
   </body>
 </html>
