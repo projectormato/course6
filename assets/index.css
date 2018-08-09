@@ -22,6 +22,10 @@ footer{
   background-size: cover;
 }
 
+.very-small{
+  font-size: 5px;
+}
+
 .btn-blue, .bg-blue{
   background-color: #243484;
 }
