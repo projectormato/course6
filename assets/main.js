@@ -3,8 +3,11 @@ var $body = $('body');
 
 //開閉用ボタンをクリックでクラスの切替え
 $('#menu__btn').on('click', function (e) {
-  $body.addClass('open');
-  //いつかtoggleするようにする
+  if ($body.hasClass('open')) {
+    $body.removeClass('open');
+  }else{
+    $body.addClass('open');
+  }
 });
 
 // メニュー名以外の部分をクリックで閉じる
