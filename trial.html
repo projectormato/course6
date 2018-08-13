@@ -13,7 +13,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </head>
   <body>
-    <div class="container text-white first">
+    <div class="container first bg-white">
       <div class="row">
         <div class="col" id="header"></div>
         <script>
@@ -22,20 +22,20 @@
         });
         </script>
       </div>
-    </div>
-    <script src="./assets/main.js"></script>
-
-
-    <div class="container">
+      <script src="./assets/main.js"></script>
       <h2>無料体験申し込み</h2>
+    </div>
 
+<div class="container bg-gray p-3">
+
+    <div class="container bg-white">
       <form action="https://docs.google.com/forms/d/e/1FAIpQLSdTnRuEiJIOttYCzoNo5LcoSAJK5Vtazy6TD8L8eI8Cuza4tQ/formResponse">
         <div class="form-group">
           <label for="select-course">希望コース<span class="text-red">※</span></label>
           <select class="form-control" name="entry.25222454" id="select-course">
-            <option>英語コース</option>
+            <option>英語・国語コース</option>
+            <option>数学・国語コース</option>
             <option>理科・社会コース</option>
-            <option>数学コース</option>
           </select>
         </div>
 
@@ -59,31 +59,34 @@
 
         <div class="form-group">
           <label for="student-name">生徒さま氏名<span class="text-red">※</span></label>
-          <input type="text" class="form-control" name="entry.1830998424" id="student-name" placeholder="例)田中　花子" required>
+          <input type="text" class="form-control" name="entry.1830998424" id="student-name" placeholder="例)　田中　花子" required>
         </div>
 
         <div class="form-group">
           <label for="student-name-kana">生徒さま氏名(カナ)<span class="text-red">※</span></label>
-          <input type="text" class="form-control" name="entry.96940126" id="student-name-kana" placeholder="タナカ　ハナコ" required>
+          <input type="text" class="form-control" name="entry.96940126" id="student-name-kana" placeholder="例)　タナカ　ハナコ" required>
         </div>
 
         <div class="form-group">
           <label for="mail-adress">メールアドレス<span class="text-red">※</span></label>
-          <input type="email" class="form-control" name="entry.328800566" id="mail-adress" placeholder="example@example.com" required>
+          <input type="email" class="form-control" name="entry.328800566" id="mail-adress" placeholder="例)　example@example.com" required>
         </div>
 
         <div class="form-group">
           <label for="phone-number">電話番号</label>
-          <input type="text" class="form-control" name="entry.1968523632" id="phone-number" placeholder="01-2345-6789">
+          <input type="text" class="form-control" name="entry.1968523632" id="phone-number" placeholder="例)　01-2345-6789">
         </div>
 
         <div class="form-group">
           <label for="some-request">ご質問・ご要望・ご希望など</label>
           <textarea class="form-control" name="entry.232600986" id="some-request" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn rounded border border-white mb-3 bg-blue text-white">この内容で送信する</button>
+        <div class="text-center">
+          <button type="submit" class="btn btn-blue badge-pill border border-white text-white mb-3 px-4">この内容で送信する</button>          
+        </div>
       </form>
     </div>
+  </div>
 
     <div id="footer"></div>
     <script>
