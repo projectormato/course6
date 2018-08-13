@@ -34,8 +34,16 @@ footer{
   background-color: #eeeeee;
 }
 
+.bg-faq{
+  background-color: #4B5996;
+}
+
 .text-red{
   color: red;
+}
+
+.text-blue{
+  color: blue;
 }
 
 
