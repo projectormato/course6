@@ -38,6 +38,10 @@ footer{
   background-color: #4B5996;
 }
 
+.form-control{
+  background-color: #eeeeee;
+}
+
 .text-red{
   color: red;
 }
